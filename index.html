@@ -174,13 +174,14 @@ sixX.addEventListener('click', function(e){
         buy(400,6);
     }
 });
-restart.addEventListener('click', function(e){
-    score.textContent=`Score: ${value-=value}`;
+restart.addEventListener('click', function(e) {
+    score.textContent = `Score: ${value -= value}`;
     click.classList.remove("hidden");
     twox.classList.remove("hidden");
     fourx.classList.remove("hidden");
     sixX.classList.remove("hidden");
-    buy(0,1);
+    buy(0, 1);
+    img.src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwDY-9A2LvYAsoynCLFDX-GLv0LIVZqp2ZstZbtw3FNSWTKSGNrCL6tik&usqp=CAU"
 });
 
 
